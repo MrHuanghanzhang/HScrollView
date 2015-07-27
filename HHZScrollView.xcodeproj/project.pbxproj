@@ -14,6 +14,13 @@
 		1A96443A1B65C5D3000AFF87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9644391B65C5D3000AFF87 /* Images.xcassets */; };
 		1A96443D1B65C5D3000AFF87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A96443B1B65C5D3000AFF87 /* LaunchScreen.xib */; };
 		1A9644491B65C5D3000AFF87 /* HHZScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9644481B65C5D3000AFF87 /* HHZScrollViewTests.m */; };
+		1A9644541B65C611000AFF87 /* HScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9644531B65C611000AFF87 /* HScrollView.m */; };
+		1A9644571B65C61D000AFF87 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9644561B65C61D000AFF87 /* UIView+Extension.m */; };
+		1A96445F1B65CAE2000AFF87 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A96445A1B65CAE2000AFF87 /* 0.jpg */; };
+		1A9644611B65CAE2000AFF87 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A96445C1B65CAE2000AFF87 /* 2.jpg */; };
+		1A9644681B65D644000AFF87 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A9644641B65D644000AFF87 /* 3.jpg */; };
+		1A9644691B65D644000AFF87 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A9644651B65D644000AFF87 /* 1.jpg */; };
+		1A96446A1B65D644000AFF87 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A9644661B65D644000AFF87 /* 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,15 @@
 		1A9644421B65C5D3000AFF87 /* HHZScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHZScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9644471B65C5D3000AFF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A9644481B65C5D3000AFF87 /* HHZScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHZScrollViewTests.m; sourceTree = "<group>"; };
+		1A9644521B65C611000AFF87 /* HScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HScrollView.h; sourceTree = "<group>"; };
+		1A9644531B65C611000AFF87 /* HScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HScrollView.m; sourceTree = "<group>"; };
+		1A9644551B65C61D000AFF87 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		1A9644561B65C61D000AFF87 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		1A96445A1B65CAE2000AFF87 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		1A96445C1B65CAE2000AFF87 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		1A9644641B65D644000AFF87 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		1A9644651B65D644000AFF87 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		1A9644661B65D644000AFF87 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +97,16 @@
 		1A96442B1B65C5D2000AFF87 /* HHZScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				1A9644621B65CAE8000AFF87 /* Image */,
 				1A9644301B65C5D2000AFF87 /* AppDelegate.h */,
 				1A9644311B65C5D2000AFF87 /* AppDelegate.m */,
 				1A9644331B65C5D2000AFF87 /* ViewController.h */,
 				1A9644341B65C5D2000AFF87 /* ViewController.m */,
 				1A9644361B65C5D2000AFF87 /* Main.storyboard */,
+				1A9644521B65C611000AFF87 /* HScrollView.h */,
+				1A9644531B65C611000AFF87 /* HScrollView.m */,
+				1A9644551B65C61D000AFF87 /* UIView+Extension.h */,
+				1A9644561B65C61D000AFF87 /* UIView+Extension.m */,
 				1A9644391B65C5D3000AFF87 /* Images.xcassets */,
 				1A96443B1B65C5D3000AFF87 /* LaunchScreen.xib */,
 				1A96442C1B65C5D2000AFF87 /* Supporting Files */,
@@ -117,6 +138,18 @@
 				1A9644471B65C5D3000AFF87 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A9644621B65CAE8000AFF87 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1A96445A1B65CAE2000AFF87 /* 0.jpg */,
+				1A96445C1B65CAE2000AFF87 /* 2.jpg */,
+				1A9644641B65D644000AFF87 /* 3.jpg */,
+				1A9644651B65D644000AFF87 /* 1.jpg */,
+				1A9644661B65D644000AFF87 /* 4.jpg */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +232,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A96446A1B65D644000AFF87 /* 4.jpg in Resources */,
+				1A9644691B65D644000AFF87 /* 1.jpg in Resources */,
+				1A96445F1B65CAE2000AFF87 /* 0.jpg in Resources */,
 				1A9644381B65C5D2000AFF87 /* Main.storyboard in Resources */,
 				1A96443D1B65C5D3000AFF87 /* LaunchScreen.xib in Resources */,
 				1A96443A1B65C5D3000AFF87 /* Images.xcassets in Resources */,
+				1A9644681B65D644000AFF87 /* 3.jpg in Resources */,
+				1A9644611B65CAE2000AFF87 /* 2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +257,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9644571B65C61D000AFF87 /* UIView+Extension.m in Sources */,
 				1A9644351B65C5D2000AFF87 /* ViewController.m in Sources */,
 				1A9644321B65C5D2000AFF87 /* AppDelegate.m in Sources */,
+				1A9644541B65C611000AFF87 /* HScrollView.m in Sources */,
 				1A96442F1B65C5D2000AFF87 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
